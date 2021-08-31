@@ -4605,14 +4605,7 @@ function showAbout() {
         imageUrl: aboutImg,
         html: `
         <br/>
-        <div id="about">
-            <b>Open Source</b> project on
-            <a href="https://github.com/miroslavpejic85/mirotalk" target="_blank"><br/></br>
-            <img alt="mirotalk github" src="../images/github.png"></a><br/><br/>
-            <button class="far fa-heart pulsate" onclick="window.open('https://github.com/sponsors/miroslavpejic85?o=esb')"> Sponsor</button>
-            <br /><br />
-            Author:<a href="https://www.linkedin.com/in/miroslav-pejic-976a07101/" target="_blank"> Miroslav Pejic</a>
-        </div>
+    
         `,
         showClass: {
             popup: 'animate__animated animate__fadeInDown',
