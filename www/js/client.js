@@ -4594,27 +4594,7 @@ function handleKickedOut(config) {
 /**
  * MiroTalk about info
  */
-function showAbout() {
-    playSound('newMessage');
 
-    Swal.fire({
-        background: swalBackground,
-        position: 'center',
-        title: '<strong>WebRTC Made with ❤️</strong>',
-        imageAlt: 'mirotalk-about',
-        imageUrl: aboutImg,
-        html: `
-        <br/>
-    
-        `,
-        showClass: {
-            popup: 'animate__animated animate__fadeInDown',
-        },
-        hideClass: {
-            popup: 'animate__animated animate__fadeOutUp',
-        },
-    });
-}
 
 /**
  * Leave the Room and create a new one
