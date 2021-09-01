@@ -36,7 +36,7 @@ Develop your `website` or `application`, and bring `video meetings` in with a si
 ```html
 <iframe
     allow="camera; microphone; fullscreen; display-capture; autoplay"
-    src="https://democracyapplicationb.herokuapp.com/join/yourroomname"
+    src="https://democracyapplicationb.herokuapp.com/join/_____room"
     style="height: 100%; width: 100%; border: 0px;"
 ></iframe>
 ```
