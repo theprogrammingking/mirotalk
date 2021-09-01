@@ -1,6 +1,6 @@
 #footer{
  font-size: 30px;
-  background: -webkit-linear-gradient(#eee, #1a75ff);
+  background: -webkit-linear-gradient(#1a75ff, #1a75ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
