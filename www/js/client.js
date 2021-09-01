@@ -714,7 +714,7 @@ function welcomeUser() {
         } else if (result.isDenied) {
             let message = {
                 email: '',
-                subject: 'Please join our MiroTalk Video Chat Meeting',
+                subject: 'please join our meeting hosted aat splash please join my room',
                 body: 'Click to join: ' + myRoomUrl,
             };
             shareRoomByEmail(message);
