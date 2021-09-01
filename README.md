@@ -28,5 +28,16 @@ powered by:  webrtc,webdevsimplified,heroku,netlify,github,microsoft engage 2021
 -   Possibility to Change UI Themes
 -   Right-click on the Video elements for more options
 -   Direct `peer-to-peer` connection ensures the lowest latency thanks to `WebRTC`
--   Supports [REST API](api/README.md) (Application Programming Interface)
+
+## Fast Integration
+
+Develop your `website` or `application`, and bring `video meetings` in with a simple `iframe`.
+
+```html
+<iframe
+    allow="camera; microphone; fullscreen; display-capture; autoplay"
+    src="https://democracyapplicationb.herokuapp.com/join/yourroomname"
+    style="height: 100%; width: 100%; border: 0px;"
+></iframe>
+```
 
